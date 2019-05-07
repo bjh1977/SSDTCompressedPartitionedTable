@@ -1,0 +1,8 @@
+﻿CREATE PARTITION FUNCTION [IntegerPFN]
+	(
+		int
+	)
+	AS RANGE LEFT
+	FOR VALUES (10,20,35)
+
+

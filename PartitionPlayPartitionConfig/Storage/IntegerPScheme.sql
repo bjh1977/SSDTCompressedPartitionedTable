@@ -1,0 +1,4 @@
+﻿CREATE PARTITION SCHEME [IntegerPScheme]
+	AS PARTITION [IntegerPFN]
+	ALL TO ([PRIMARY]);
+
